@@ -1,0 +1,22 @@
+header{
+    height: 120px;
+    background-color: #888;
+}
+
+footer{
+    height: 80px;
+    background-color: #555;
+}
+
+main{
+    height: calc(100vh - 200px);
+    overflow: auto;
+}
+
+.listCard{
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
