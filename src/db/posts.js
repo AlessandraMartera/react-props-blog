@@ -2,7 +2,7 @@ export const posts = [
     {
       id: 1,
       title: "Titolo del Post 1",
-      image: "",
+      image: "ramen.jpg",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["html", "css"],
@@ -10,8 +10,8 @@ export const posts = [
     },
     {
       id: 2,
-      title: "Titolo del Post 2",
-      image: "",
+      title: "campeggio",
+      image: "campeggio.jpg",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["js", "css"],
@@ -24,11 +24,38 @@ export const posts = [
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
       tags: ["js", "php"],
-      published: true,
+      published: false,
     },
     {
       id: 4,
       title: "Titolo del Post 4",
+      image: "",
+      content:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
+      tags: ["html"],
+      published: false,
+    },
+    {
+      id: 5,
+      title: "Titolo del Post 5",
+      image: "",
+      content:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
+      tags: ["html"],
+      published: false,
+    },
+    {
+      id: 6,
+      title: "Titolo del Post 6",
+      image: "fiori.jpg",
+      content:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
+      tags: ["html", "css", "php"],
+      published: true,
+    },
+    {
+      id: 7,
+      title: "Titolo del Post 7",
       image: "",
       content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit animi unde quasi enim non esse ratione voluptas voluptate, officiis veritatis magni blanditiis possimus nobis cum id inventore corporis deserunt hic.",
